@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+header {
+    background-color: #ffcc00; /* Bright yellow */
+}
+/* Style the top navigation bar */
+.topnav {
+    background-color: #ffcc00; /* Bright yellow, reminiscent of SpongeBob */
+    overflow: hidden;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066cc; /* Blue, like the ocean */
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #0066cc; /* Blue background */
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change the color of links on hover */
+  nav ul li a:hover {
+    background-color: #ff6600; /* Orange, like a Krabby Patty */
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  nav ul li a.active {
+    background-color: #ff6600;
+    color: white;
+  }
+  #home{
+    font-family: "Bungee Tint", sans-serif;
+  }
